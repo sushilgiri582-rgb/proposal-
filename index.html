@@ -122,7 +122,7 @@
             // Grow Yes button
             let scale = 1 + (noCount * 0.05);
             document.getElementById('yes-btn').style.transform = `scale(${scale})`;
-            document.getElementById('yes-percent.innerText') = Math.min(100, 99 + noCount) + '%';
+    document.getElementById('yes-percent').innerText = Math.min(100, 99 + noCount) + '%';
 
             if(noCount > 3) {
                 document.getElementById('streak-msg').innerText = "Destiny is pointing towards YES! 💘";
